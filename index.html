@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Rahatlama Sayfam</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <div class="logo">
+            </div>
+            <div class="content">
+                <div class="inner">
+                    <h1>Barış Keser</h1>
+                    <p>Yazılımcı • Back-End Coder • Hayatı Yok(Linux kullanıyor)</p>
+                </div>
+            </div>
+			<audio id="audioID" loop> <source src="./images/bg.mp3"  type="audio/mp3"></audio>
+			<button>Sayfa şarkısını Oynat</button>
+
+<script>
+    document.querySelector('button').addEventListener('click', () => {
+        document.querySelector('audio').play();
+		var audio = document.getElementById("audioID");
+		audio.volume = 0.2;
+    });
+	
+</script>
+
+            <nav>
+                <ul>
+                    <li style="text-align: center"><a href="#contact">İletişim</a></li>
+                    <li style="text-align: center"><a href="#commissions">İşlerim</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main -->
+        <div id="main">
+            <!-- Contact -->
+            <article id="contact">
+                <h2 class="major" style: "text-align: center">Bana Ulaş</h2>
+                <ul class="icons">
+                    <li><a href="https://www.instagram.com/baris.ksr_crazy.players/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                    <li><a href="https://github.com/barkeser2002/" class="icon fa-github"><span class="label">GitHub</span></a></li>
+                    <li><a href="https://steamcommunity.com/id/DexTercomebackhahahahaha/" class="icon fa-steam"><span class="label">Steam</span></a></li>
+					<li><a href="https://open.spotify.com/user/barkeser2002" class="icon fa-spotify"><span class="label">Spotify</span></a></li>
+                    <li>
+                        <h3>BarışKeser/CrazyPlayers#9949</h3>
+                    </li>
+                </ul>
+            </article>
+
+            <!-- commissions -->
+            <article id="commissions">
+                <h2 class="major" style: "text-align: center">İş Ücretlerim</h2>
+                <img src="./images/commissions.png" style="width: 35em">
+            </article>
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+
+        </footer>
+
+    </div>
+
+    <!-- BG -->
+    <div id="bg">
+
+    </div>
+
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+
+<script>
+var myaudio = document.getElementById("audioID").autoplay = true;
+</script>
+</body>
+
+</html>
